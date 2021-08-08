@@ -6,7 +6,66 @@
     <description>Recent content in Blogs on Mattia Righetti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2019 15:42:50 +0200</lastBuildDate><atom:link href="https://mattrighetti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 13:33:54 +0200</lastBuildDate><atom:link href="https://mattrighetti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Caching With NSCache</title>
+      <link>https://mattrighetti.github.io/blog/data-caching-with-nscache/</link>
+      <pubDate>Wed, 16 Jun 2021 13:33:54 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/data-caching-with-nscache/</guid>
+      <description>I recently open-sourced my HackerNews reader for macOS that is entirely written in SwiftUI for macOS. Analysing my scenario can help to explain data caching and data waste avoidance. If you want to get a more detailed idea of the code, you can follow along in the project’s GitHub repository.
+Scenario Hacker News is a well-known website that stores news reported by users on the platform. Each individual story is going to be represented by an Item struct, as the HN API’s documentation specifies.</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI and CoreData: The MVVM Way</title>
+      <link>https://mattrighetti.github.io/blog/swiftui-coredata-the-mvvm-way/</link>
+      <pubDate>Wed, 03 Feb 2021 18:48:57 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/swiftui-coredata-the-mvvm-way/</guid>
+      <description>A clean and intuitive way to handle Core Data entities in SwiftUI</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Hack HTTP</title>
+      <link>https://mattrighetti.github.io/blog/lets-hack-http/</link>
+      <pubDate>Wed, 16 Dec 2020 01:40:46 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/lets-hack-http/</guid>
+      <description>In this article I’m going to show you why you absolutely want to ditch HTTP websites by impersonating an attacker that has targeted you.
+This article is for educational purposes only. Do not try this with people that didn’t explicitly give you permission to do so.
+What you will learn This article should give you a better understanding of why HTTP is bad and why you should avoid it. Also you’ll learn a few different tools that are common in the IT world.</description>
+    </item>
+    
+    <item>
+      <title>Automate XCTests with GitHub Actions</title>
+      <link>https://mattrighetti.github.io/blog/automate-xctests-with-github-actions/</link>
+      <pubDate>Fri, 16 Oct 2020 00:05:02 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/automate-xctests-with-github-actions/</guid>
+      <description>Ever since GitHub introduced GitHub Actions in 2018, developers now have a powerful tool to create complex pipelines for CI/CD without the need to rely on third-party software.
+If you’ve worked on a project with a team composed of multiple people, you know that a lot of things can go wrong. A lot of code can break with a single commit pushed/merged by mistake or a commit made by a user who was not paying much attention to other people’s code.</description>
+    </item>
+    
+    <item>
+      <title>Empower Your App With Dark Mode</title>
+      <link>https://mattrighetti.github.io/blog/empower-your-app-with-darkmode/</link>
+      <pubDate>Sat, 25 Apr 2020 10:28:11 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/empower-your-app-with-darkmode/</guid>
+      <description>More and more people everyday are using Dark mode on their devices, me included. The majority of people on macOS use Dark mode and almost half of the iOS and iPadOS use that, that’s why you should implement it in your app from the very beginning.
+ How can I give the UI a particular color look when I’m in Light mode and another one when in Dark mode?</description>
+    </item>
+    
+    <item>
+      <title>Flat List Design in SwiftUI</title>
+      <link>https://mattrighetti.github.io/blog/flat-list-design-swiftui/</link>
+      <pubDate>Wed, 22 Apr 2020 15:42:50 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/flat-list-design-swiftui/</guid>
+      <description>How to design and style lists and cells in SwiftUI</description>
+    </item>
+    
     <item>
       <title>How to host Telegram bots on Heroku</title>
       <link>https://mattrighetti.github.io/blog/build-your-first-telegram-bot/</link>

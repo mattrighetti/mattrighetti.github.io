@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iOS on Mattia Righetti</title>
+    <link>https://mattrighetti.github.io/tags/ios/</link>
+    <description>Recent content in iOS on Mattia Righetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 15:42:50 +0200</lastBuildDate><atom:link href="https://mattrighetti.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flat List Design in SwiftUI</title>
+      <link>https://mattrighetti.github.io/blog/flat-list-design-swiftui/</link>
+      <pubDate>Wed, 22 Apr 2020 15:42:50 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/blog/flat-list-design-swiftui/</guid>
+      <description>How to design and style lists and cells in SwiftUI</description>
+    </item>
+    
+  </channel>
+</rss>

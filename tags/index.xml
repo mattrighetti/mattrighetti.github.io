@@ -5,6 +5,34 @@
     <link>https://mattrighetti.github.io/tags/</link>
     <description>Recent content in Tags on Mattia Righetti</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mattrighetti.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 15:42:50 +0200</lastBuildDate><atom:link href="https://mattrighetti.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS</title>
+      <link>https://mattrighetti.github.io/tags/ios/</link>
+      <pubDate>Wed, 22 Apr 2020 15:42:50 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://mattrighetti.github.io/tags/swift/</link>
+      <pubDate>Wed, 22 Apr 2020 15:42:50 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SwitfUI</title>
+      <link>https://mattrighetti.github.io/tags/switfui/</link>
+      <pubDate>Wed, 22 Apr 2020 15:42:50 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/tags/switfui/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -11,17 +11,47 @@
     <loc>https://mattrighetti.github.io/project/</loc>
     <lastmod>2021-07-28T23:14:56+02:00</lastmod>
   </url><url>
+    <loc>https://mattrighetti.github.io/blog/</loc>
+    <lastmod>2021-06-16T13:33:54+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/blog/data-caching-with-nscache/</loc>
+    <lastmod>2021-06-16T13:33:54+02:00</lastmod>
+  </url><url>
     <loc>https://mattrighetti.github.io/project/webex-dl/</loc>
     <lastmod>2021-03-11T23:14:37+02:00</lastmod>
   </url><url>
     <loc>https://mattrighetti.github.io/project/lode/</loc>
     <lastmod>2021-03-03T23:14:56+02:00</lastmod>
   </url><url>
+    <loc>https://mattrighetti.github.io/blog/swiftui-coredata-the-mvvm-way/</loc>
+    <lastmod>2021-02-03T18:48:57+02:00</lastmod>
+  </url><url>
     <loc>https://mattrighetti.github.io/project/teams-dl/</loc>
     <lastmod>2020-12-24T23:14:47+02:00</lastmod>
   </url><url>
-    <loc>https://mattrighetti.github.io/blog/</loc>
-    <lastmod>2019-05-29T15:42:50+02:00</lastmod>
+    <loc>https://mattrighetti.github.io/blog/lets-hack-http/</loc>
+    <lastmod>2020-12-16T01:40:46+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/blog/automate-xctests-with-github-actions/</loc>
+    <lastmod>2020-10-16T00:05:02+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/blog/empower-your-app-with-darkmode/</loc>
+    <lastmod>2020-04-25T10:28:11+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/blog/flat-list-design-swiftui/</loc>
+    <lastmod>2020-04-22T15:42:50+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/tags/ios/</loc>
+    <lastmod>2020-04-22T15:42:50+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/tags/swift/</loc>
+    <lastmod>2020-04-22T15:42:50+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/tags/switfui/</loc>
+    <lastmod>2020-04-22T15:42:50+02:00</lastmod>
+  </url><url>
+    <loc>https://mattrighetti.github.io/tags/</loc>
+    <lastmod>2020-04-22T15:42:50+02:00</lastmod>
   </url><url>
     <loc>https://mattrighetti.github.io/blog/build-your-first-telegram-bot/</loc>
     <lastmod>2019-05-29T15:42:50+02:00</lastmod>
@@ -33,7 +63,5 @@
     <loc>https://mattrighetti.github.io/categories/</loc>
   </url><url>
     <loc>https://mattrighetti.github.io/search/</loc>
-  </url><url>
-    <loc>https://mattrighetti.github.io/tags/</loc>
   </url>
 </urlset>
