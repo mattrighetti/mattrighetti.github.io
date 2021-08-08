@@ -107,11 +107,11 @@ Let's Hack HTTP
 <p>Our attack is useless if we don’t have anyone to hack, so what an attacker would do first is actually FIND you in the network. That’s what <strong>nmap</strong> is famous for. What <strong>nmap</strong> will do is scan the entire network and look for connected hosts which we can potentially attack.</p>
 <p>I’m going to scan my home network with <strong>nmap</strong> but before that I need my local IP address</p>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*624dbYbYnjAKpdcnSjDtrA.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*624dbYbYnjAKpdcnSjDtrA.png#center>
 </figure>
 <p>Great, now I know that my local IP is <strong>192.168.1.151</strong> and the subnet mask is <strong>255.255.255.0</strong>, that’s all I need to performa a network exploration with <strong>nmap</strong></p>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*0jUZSMofWAsMZbNHuZrZYQ.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*0jUZSMofWAsMZbNHuZrZYQ.png#center>
 </figure>
 <p>As you can see I provided nmap with the IPs to scan in the network, which in this case are all the addresses that go from <strong>192.168.1.1</strong> to <strong>192.168.1.254</strong>, the flag -sn will make nmap try to determine whether the specified hosts are up and what are their names.</p>
 <p>My target is going to be my iMac that’s sitting next to me, its IP address is <strong>192.168.1.195</strong>.</p>
@@ -119,24 +119,24 @@ Let's Hack HTTP
 <p>Now that we have our target we need to sniff his/her HTTP packets. Since we’re all connected to a router at the moment, we’re going to see nothing useful in WireShark because my iMac’s packets are not sent directly to me, the router will just send those packets to my iMac.</p>
 <p>How are we going to make those packets come to us then if the router will just send them to my iMac? This can be performed with a well known attack called <a href=https://en.wikipedia.org/wiki/Man-in-the-middle_attack>MITM</a> (Man In The Middle) that will make all those packets pass through us before reaching his intended destination.</p>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*YGsEp-aWVhkUe2JAIq-3Lw.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*YGsEp-aWVhkUe2JAIq-3Lw.png#center>
 </figure>
 <p>You might be wondering what <strong>ettercap</strong> is doing here, let me explain.</p>
 <p>Every router relies heavily on <a href=https://en.wikipedia.org/wiki/Address_Resolution_Protocol>ARP</a>, which stands for Address Resolution Protocol, to know where devices are on the network. It basically links every MAC address (which never changes) to its device IP address. What <strong>ettercap</strong> here is basically doing is called <a href=https://en.wikipedia.org/wiki/ARP_spoofing>ARP poisoning</a>, which I’m using to make the router think that I am the victim’s computer so that it will send all the packets intended for my iMac to me, and I’m also telling the iMac that I am the router so it should send all the packets to me. Starting to see the bigger picture? 🙃</p>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*-gwmGLi8rn__ZlYKWAIgUw.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*-gwmGLi8rn__ZlYKWAIgUw.png#center>
 </figure>
 <p>These are all the packets that are going through my iMac to the router and from the router to the iMac. Luckily this will mostly be encrypted stuff, but guess what, HTTP is not.
 Let’s move to WireShark so we can capture and filter all the packets that we need. While ettercap is still going, I’m going to capture packets with WireShark and at the same moment I’m going to use my iMac to navigate to an <a href=http://www.bio.acousti.ca/>unsecured website</a> which is just a dummy site that uses HTTP.</p>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*PlyWovxZ3PnvQrUQXSdlrQ.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*PlyWovxZ3PnvQrUQXSdlrQ.png#center>
 </figure>
 <p>I also did filter packets by IP and HTTP protocol to have a better understanding of what I captured. Now WireShark will help me put those pieces together, if I right click on one of those HTTP packets and select <strong>Follow > HTTP stream</strong> I’ll get everything of what the victim browsed in cleartext.</p>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*zVyWd7VriRIN9YUcUFWMIQ.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*zVyWd7VriRIN9YUcUFWMIQ.png#center>
 </figure>
 <figure class=align-center>
-<img loading=lazy src=https://miro.medium.com/max/1400/1*RjUQgaCyOi1EFg32vZ5p0A.png#center height=400px>
+<img loading=lazy src=https://miro.medium.com/max/1400/1*RjUQgaCyOi1EFg32vZ5p0A.png#center>
 </figure>
 <p>From here I can see everything the victim did on that site, I could grab his login credentials when he/she tries to log in and every other possible bad thing that pops to my mind.</p>
 <h3 id=conclusion>Conclusion<a hidden class=anchor aria-hidden=true href=#conclusion>#</a></h3>
