@@ -4,6 +4,10 @@
     <title>Categories on Mattia Righetti</title>
     <link>https://mattrighetti.github.io/categories/</link>
     <description>Recent content in Categories on Mattia Righetti</description>
+    <image>
+      <url>https://mattrighetti.github.io/website-cover.png</url>
+      <link>https://mattrighetti.github.io/website-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://mattrighetti.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

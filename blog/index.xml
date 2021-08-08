@@ -4,6 +4,10 @@
     <title>Blogs on Mattia Righetti</title>
     <link>https://mattrighetti.github.io/blog/</link>
     <description>Recent content in Blogs on Mattia Righetti</description>
+    <image>
+      <url>https://mattrighetti.github.io/website-cover.png</url>
+      <link>https://mattrighetti.github.io/website-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Jun 2021 13:33:54 +0200</lastBuildDate><atom:link href="https://mattrighetti.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
