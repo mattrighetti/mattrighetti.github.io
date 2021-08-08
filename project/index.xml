@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Mattia Righetti</title>
+    <link>https://mattrighetti.github.io/project/</link>
+    <description>Recent content in Projects on Mattia Righetti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jul 2021 23:14:56 +0200</lastBuildDate><atom:link href="https://mattrighetti.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HNReader for macOS</title>
+      <link>https://mattrighetti.github.io/project/hnreader/</link>
+      <pubDate>Wed, 28 Jul 2021 23:14:56 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/project/hnreader/</guid>
+      <description>A Hacker News reader for macOS</description>
+    </item>
+    
+    <item>
+      <title>webex-dl</title>
+      <link>https://mattrighetti.github.io/project/webex-dl/</link>
+      <pubDate>Thu, 11 Mar 2021 23:14:37 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/project/webex-dl/</guid>
+      <description>Multi-process Webex meetings downloader</description>
+    </item>
+    
+    <item>
+      <title>Lode</title>
+      <link>https://mattrighetti.github.io/project/lode/</link>
+      <pubDate>Wed, 03 Mar 2021 23:14:56 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/project/lode/</guid>
+      <description>A simple and easy to use iOS university manager application</description>
+    </item>
+    
+    <item>
+      <title>teams-dl</title>
+      <link>https://mattrighetti.github.io/project/teams-dl/</link>
+      <pubDate>Thu, 24 Dec 2020 23:14:47 +0200</pubDate>
+      
+      <guid>https://mattrighetti.github.io/project/teams-dl/</guid>
+      <description>Multi-processed Teams meetings downloader</description>
+    </item>
+    
+  </channel>
+</rss>
