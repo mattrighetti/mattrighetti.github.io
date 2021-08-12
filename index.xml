@@ -125,6 +125,15 @@ If you’ve worked on a project with a team composed of multiple people, you kno
     </item>
     
     
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://mattrighetti.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mattrighetti.github.io/cv/</guid>
+      <description>cv</description>
+    </item>
+    
     
   </channel>
 </rss>
